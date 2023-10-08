@@ -17,6 +17,7 @@ git clone git@github.com:DubrovskyEI/tac_plus-ng-docker.git
 ## 3. Edit tac_plus-ng.cfg
 
 Edit tac_plus-ng configuration file
+
 Documentation is available on the original site https://www.pro-bono-publico.de/projects/tac_plus-ng.html
 
 ## 4. Run startup script
@@ -56,3 +57,7 @@ Logging to files in Docker Volume:
 - tac_plus-ng-logs/authentication - authentication logs
 - tac_plus-ng-logs/authorization - authorization logs
 - tac_plus-ng-logs/accounting - accounting logs
+
+### TODO:
+
+- [ ] Run container as a service to start container automatically on system boot
