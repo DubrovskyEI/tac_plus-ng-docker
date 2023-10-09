@@ -1,0 +1,7 @@
+# Ignore everything
+/*
+
+# Except 'Dockerfile', '.gitignore', 'tac_plus-ng/'
+!/Dockerfile
+!/.gitignore
+!/tac_plus-ng/
