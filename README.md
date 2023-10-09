@@ -76,8 +76,3 @@ Logging to files in Docker Volume:
 - /var/log/tac_plus-ng/authentication/ - authentication logs directory
 - /var/log/tac_plus-ng/authorization/ - authorization logs directory
 - /var/log/tac_plus-ng/accounting/ - accounting logs directory
-
-### TODO:
-
-- [ ] Run container at system startup
-- [ ] Use environment variables in compose.yaml for tac_plus-ng.cfg
