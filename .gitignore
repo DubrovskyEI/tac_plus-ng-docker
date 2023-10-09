@@ -1,7 +1,9 @@
 # Ignore everything
 /*
 
-# Except 'Dockerfile', '.gitignore', 'tac_plus-ng/'
+# Except 'Dockerfile', 'compose.yaml', 'run-tac_plus-ng-docker.sh', '.gitignore', 'tac_plus-ng/'
 !/Dockerfile
+!/compose.yaml
+!/run-tac_plus-ng-docker.sh
 !/.gitignore
 !/tac_plus-ng/

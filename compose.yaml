@@ -1,0 +1,12 @@
+services:
+  tac_plus-ng:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: /usr/local/sbin/tac_plus-ng -f /usr/local/etc/tac_plus-ng.cfg
+    ports:
+      - "0.0.0.0:49:49/tcp"
+    volumes:
+      - "./tac_plus-ng:/usr/local/etc/"
+      - "/var/log/tac_plus-ng:/var/log/tac_plus-ng"
+
