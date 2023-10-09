@@ -31,6 +31,7 @@ chmod +x run-tac_plus-ng-docker.sh
 ./run-tac_plus-ng-docker.sh
 ```
 > Info
+> 
 > It requires sudo privileges for creating log directories in /var/log
 
 ### Check docker images
