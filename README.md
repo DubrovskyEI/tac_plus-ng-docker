@@ -11,7 +11,7 @@ Install the Docker Engine. Download links for all popular platforms are provided
 ## 2. Clone this repository
 
 ```Shell
-git clone git@github.com:DubrovskyEI/tac_plus-ng-docker.git
+git clone https://github.com/DubrovskyEI/tac_plus-ng-docker.git
 ```
 
 ## 3. Edit tac_plus-ng.cfg
