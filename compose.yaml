@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: tac_plus-ng-docker
+    container_name: tac_plus-ng-docker
     command: /usr/local/sbin/tac_plus-ng -f /usr/local/etc/tac_plus-ng.cfg
     env_file:
       - ./tac_plus-ng/tac_plus-ng.env
