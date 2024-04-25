@@ -34,4 +34,4 @@ RUN apt update && \
 EXPOSE 49/tcp
 
 # Run tac_plus-ng
-CMD /usr/local/sbin/tac_plus-ng -f /usr/local/etc/tac_plus-ng.cfg
+CMD ["/usr/local/sbin/tac_plus-ng", "-f", "/usr/local/etc/tac_plus-ng.cfg"]
